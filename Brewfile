@@ -40,5 +40,6 @@ cask "fantastical"
 cask "transmit"
 cask "slack"
 cask "spotify"
+cask "visual-studio-code"
 
 #mas install 540348655
