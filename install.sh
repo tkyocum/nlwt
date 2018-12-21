@@ -24,6 +24,7 @@ defaults write com.apple.Safari NewTabBehavior -bool true
 defaults write com.apple.Safari NewWindowBehavior -bool true
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 defaults write com.apple.TextEdit RichText -int 0
+defaults write com.apple.systemsound com.apple.sound.uiaudio.enabled -int 0
 sudo defaults write /Library/Preferences/com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 defaults write com.apple.dock tilesize -int 30
 defaults write com.apple.dock largesize -int 128
