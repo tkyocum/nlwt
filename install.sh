@@ -1,7 +1,5 @@
 #!/bin/sh
 
-echo "Changing shell to zsh; account password required."
-chsh -s /bin/zsh
 echo "Installing xcode"
 xcode-select --install
 echo "Installing homebrew"
@@ -42,4 +40,4 @@ defaults write -g KeyRepeat -int 2
 echo "Installing iTerm Shell Integration"
 curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
 echo "Installing oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
