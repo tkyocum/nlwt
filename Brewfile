@@ -2,7 +2,10 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'caskroom/cask'
 tap 'homebrew/services'
+tap 'homebrew/cask-fonts'
 
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 brew "vim"
 brew "mas"
 brew "mosh"
@@ -41,5 +44,6 @@ cask "transmit"
 cask "slack"
 cask "spotify"
 cask "visual-studio-code"
+cask "font-firacode-nerd-font"
 
 #mas install 540348655
