@@ -26,6 +26,7 @@ brew "jq"
 brew "mercurial"
 brew "protobuf"
 brew "sqlite"
+brew "ykman"
 brew "github/gh/gh"
 
 cask "keka"
