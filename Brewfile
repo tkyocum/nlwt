@@ -3,6 +3,7 @@ tap "argoproj/tap"
 tap "bondanthony/tools"
 tap "civo/tools"
 tap "federico-terzi/espanso"
+tap "gabrie30/utils"
 tap "github/gh"
 tap "go-delve/delve"
 tap "heroku/brew"
@@ -16,6 +17,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "int128/kubelogin"
+tap "superfly/tap"
 tap "vitorgalvao/tiny-scripts"
 brew "ansible"
 brew "argocd"
@@ -24,7 +26,7 @@ brew "azure-cli"
 brew "bazaar"
 brew "node"
 brew "bitwarden-cli"
-brew "influxdb", link: false
+brew "influxdb"
 brew "kapacitor"
 brew "chronograf"
 brew "cmake"
@@ -33,7 +35,10 @@ brew "docker-machine", link: false
 brew "dos2unix"
 brew "etcd"
 brew "exa"
+brew "exiftool"
+brew "harfbuzz"
 brew "ffmpeg"
+brew "fzf"
 brew "gh"
 brew "git"
 brew "gnu-tar"
@@ -46,9 +51,12 @@ brew "iperf"
 brew "iperf3"
 brew "istioctl"
 brew "jq"
+brew "jsonnet-bundler"
 brew "kepubify"
-brew "kubecfg"
 brew "kubernetes-cli"
+brew "krew"
+brew "kubecfg"
+brew "mame"
 brew "mas"
 brew "mercurial"
 brew "mosh"
@@ -70,6 +78,7 @@ brew "telegraf"
 brew "terraform"
 brew "tmux"
 brew "unrar"
+brew "up"
 brew "velero"
 brew "vim"
 brew "wget"
@@ -78,8 +87,9 @@ brew "ykman"
 brew "youtube-dl"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-brew "bondanthony/tools/influx@2.0.0.16"
+brew "bondanthony/tools/influx@2.0.0.16", link: false
 brew "civo/tools/civo"
+brew "gabrie30/utils/ghorg"
 brew "heroku/brew/heroku"
 brew "hivemq/mqtt-cli/mqtt-cli"
 brew "int128/kubelogin/kubelogin"
@@ -105,18 +115,26 @@ cask "transmit"
 cask "viscosity"
 cask "visual-studio-code"
 cask "zoom"
+mas "Bitwarden", id: 1352778147
 mas "BrowseShot", id: 615916400
 mas "ColorSlurp", id: 1287239339
+mas "com.getfireshot.fireshot", id: 1541862561
+mas "Craft", id: 1487937127
 mas "Cyph", id: 1480070821
 mas "Ghostery Lite", id: 1436953057
 mas "Grammarly for Safari", id: 1462114288
+mas "Home Assistant", id: 1099568401
+mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LG Screen Manager", id: 1142051783
+mas "MetaImage", id: 1397099749
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
+mas "OwlOCR", id: 1499181666
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Save to Pocket", id: 1477385213
-mas "Spaces", id: 1509611686
 mas "Spark", id: 1176895641
 mas "Tailscale", id: 1475387142
 mas "Ulysses", id: 623795237
