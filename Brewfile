@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 tap "argoproj/tap"
 tap "bondanthony/tools"
 tap "civo/tools"
+tap "etopeter/tap"
 tap "federico-terzi/espanso"
 tap "gabrie30/utils"
 tap "github/gh"
@@ -17,6 +18,9 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "int128/kubelogin"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "qmk/qmk"
 tap "superfly/tap"
 tap "vitorgalvao/tiny-scripts"
 brew "ansible"
@@ -26,6 +30,7 @@ brew "azure-cli"
 brew "bazaar"
 brew "node"
 brew "bitwarden-cli"
+brew "glib"
 brew "influxdb"
 brew "kapacitor"
 brew "chronograf"
@@ -33,9 +38,12 @@ brew "cmake"
 brew "docker-compose", link: false
 brew "docker-machine", link: false
 brew "dos2unix"
+brew "e2fsprogs"
 brew "etcd"
 brew "exa"
 brew "exiftool"
+brew "gnutls"
+brew "gobject-introspection"
 brew "harfbuzz"
 brew "ffmpeg"
 brew "fzf"
@@ -61,6 +69,7 @@ brew "mas"
 brew "mercurial"
 brew "mosh"
 brew "mosquitto"
+brew "nghttp2"
 brew "nmap"
 brew "openssh"
 brew "openvpn"
@@ -68,9 +77,10 @@ brew "p7zip"
 brew "packer"
 brew "parallel"
 brew "postgresql"
-brew "postgresql@9.6"
+brew "python@3.8"
 brew "qrencode"
 brew "rclone"
+brew "ruby"
 brew "stern"
 brew "swagger-codegen"
 brew "tcptraceroute"
@@ -85,14 +95,17 @@ brew "wget"
 brew "wireguard-tools"
 brew "ykman"
 brew "youtube-dl"
+brew "yt-dlp"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "bondanthony/tools/influx@2.0.0.16", link: false
 brew "civo/tools/civo"
+brew "etopeter/tap/kubectl-view-utilization"
 brew "gabrie30/utils/ghorg"
 brew "heroku/brew/heroku"
 brew "hivemq/mqtt-cli/mqtt-cli"
 brew "int128/kubelogin/kubelogin"
+brew "qmk/qmk/qmk"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "1password"
 cask "alfred"
@@ -120,10 +133,11 @@ mas "BrowseShot", id: 615916400
 mas "ColorSlurp", id: 1287239339
 mas "com.getfireshot.fireshot", id: 1541862561
 mas "Craft", id: 1487937127
-mas "Cyph", id: 1480070821
-mas "Ghostery Lite", id: 1436953057
+mas "Developer", id: 640199958
+mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Grammarly for Safari", id: 1462114288
 mas "Home Assistant", id: 1099568401
+mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LG Screen Manager", id: 1142051783
