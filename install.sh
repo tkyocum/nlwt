@@ -3,7 +3,7 @@
 echo "Installing xcode"
 xcode-select --install
 echo "Installing homebrew"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "Brewin' and Caskin' from Brewfile"
 brew bundle
 echo "Copying ssh config"
