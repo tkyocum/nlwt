@@ -1,14 +1,11 @@
 cask_args appdir: '/Applications'
 tap "argoproj/tap"
-tap "bondanthony/tools"
-tap "civo/tools"
 tap "emqx/mqttx"
 tap "etopeter/tap"
 tap "federico-terzi/espanso"
 tap "gabrie30/utils"
 tap "github/gh"
 tap "go-delve/delve"
-tap "heroku/brew"
 tap "hivemq/mqtt-cli"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -33,12 +30,8 @@ brew "argocd"
 brew "awscli"
 brew "python@3.10"
 brew "azure-cli"
-brew "bazaar"
 brew "node"
 brew "bitwarden-cli"
-brew "influxdb"
-brew "kapacitor"
-brew "chronograf"
 brew "cmake"
 brew "coreutils"
 brew "docker-compose", link: false
@@ -66,7 +59,6 @@ brew "grep"
 brew "gtk4"
 brew "helm"
 brew "hugo"
-brew "iperf"
 brew "iperf3"
 brew "istioctl"
 brew "jq"
@@ -79,7 +71,6 @@ brew "kubecfg"
 brew "libheif"
 brew "mame"
 brew "mas"
-brew "mercurial"
 brew "mosh"
 brew "mosquitto"
 brew "ncdu"
@@ -91,7 +82,6 @@ brew "openvpn"
 brew "p7zip"
 brew "packer"
 brew "parallel"
-brew "postgresql@14"
 brew "python@3.8"
 brew "qrencode"
 brew "rclone"
@@ -115,12 +105,9 @@ brew "ykman"
 brew "yt-dlp"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-brew "bondanthony/tools/influx@2.0.0.16", link: false
-brew "civo/tools/civo"
 brew "emqx/mqttx/mqttx-cli"
 brew "etopeter/tap/kubectl-view-utilization"
 brew "gabrie30/utils/ghorg"
-brew "heroku/brew/heroku"
 brew "hivemq/mqtt-cli/mqtt-cli"
 brew "int128/kubelogin/kubelogin"
 brew "jjuarez/tap-1/kubecolor"
@@ -135,17 +122,14 @@ cask "docker"
 cask "fantastical"
 cask "fig"
 cask "font-firacode-nerd-font"
-cask "google-chrome"
 cask "hazel"
 cask "istat-menus"
 cask "iterm2"
 cask "keka"
-cask "keybase"
 cask "little-snitch"
 cask "slack"
 cask "spotify"
 cask "transmit"
-cask "viscosity"
 cask "visual-studio-code"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
@@ -154,10 +138,8 @@ mas "BrowseShot", id: 615916400
 mas "Calendars", id: 608834326
 mas "ColorSlurp", id: 1287239339
 mas "com.getfireshot.fireshot", id: 1541862561
-mas "Craft", id: 1487937127
 mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Grammarly for Safari", id: 1462114288
-mas "Home Assistant", id: 1099568401
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
@@ -171,10 +153,7 @@ mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
-mas "Spark", id: 1176895641
-mas "Steam Link", id: 1246969117
 mas "Tailscale", id: 1475387142
 mas "TestFlight", id: 899247664
 mas "Tot", id: 1491071483
 mas "Ulysses", id: 623795237
-mas "WireGuard", id: 1451685025
